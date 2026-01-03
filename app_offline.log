@@ -1,0 +1,32 @@
+2025-11-26 14:14:52,989 [ERROR] Pool Error: 2003: Can't connect to MySQL server on 'localhost:3306' (Errno 10061: No connection could be made because the target machine actively refused it)
+2025-11-26 14:14:53,072 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://100.100.167.163:5000
+2025-11-26 14:14:53,073 [INFO] [33mPress CTRL+C to quit[0m
+2025-11-26 14:14:55,465 [INFO] 127.0.0.1 - - [26/Nov/2025 14:14:55] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-11-26 14:14:55,638 [INFO] 127.0.0.1 - - [26/Nov/2025 14:14:55] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-11-26 14:14:55,646 [INFO] 127.0.0.1 - - [26/Nov/2025 14:14:55] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-11-26 14:14:55,819 [INFO] 127.0.0.1 - - [26/Nov/2025 14:14:55] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=hisotlSLlIGNznGfCf7q HTTP/1.1" 200 -
+2025-11-26 14:14:55,883 [INFO] 127.0.0.1 - - [26/Nov/2025 14:14:55] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-11-26 14:20:09,750 [ERROR] Pool Error: 2003: Can't connect to MySQL server on 'localhost:3306' (Errno 10061: No connection could be made because the target machine actively refused it)
+2025-11-26 14:20:09,802 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://100.100.167.163:5000
+2025-11-26 14:20:09,802 [INFO] [33mPress CTRL+C to quit[0m
+2025-11-26 14:20:11,996 [INFO] 127.0.0.1 - - [26/Nov/2025 14:20:11] "GET / HTTP/1.1" 200 -
+2025-11-26 14:20:16,613 [INFO] 127.0.0.1 - - [26/Nov/2025 14:20:16] "[35m[1mGET /view_logs HTTP/1.1[0m" 500 -
+2025-11-26 14:20:16,713 [INFO] 127.0.0.1 - - [26/Nov/2025 14:20:16] "GET /view_logs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-11-26 14:20:16,715 [INFO] 127.0.0.1 - - [26/Nov/2025 14:20:16] "GET /view_logs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-11-26 14:20:16,751 [INFO] 127.0.0.1 - - [26/Nov/2025 14:20:16] "GET /view_logs?__debugger__=yes&cmd=resource&f=console.png&s=BSMUZw3BcZl5d6aK7i3M HTTP/1.1" 200 -
+2025-11-26 14:20:16,785 [INFO] 127.0.0.1 - - [26/Nov/2025 14:20:16] "GET /view_logs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-11-26 14:20:23,225 [INFO] 127.0.0.1 - - [26/Nov/2025 14:20:23] "[35m[1mGET /view_forward_logs HTTP/1.1[0m" 500 -
+2025-11-26 14:20:23,234 [INFO] 127.0.0.1 - - [26/Nov/2025 14:20:23] "GET /view_forward_logs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-11-26 14:20:23,235 [INFO] 127.0.0.1 - - [26/Nov/2025 14:20:23] "GET /view_forward_logs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-11-26 14:20:23,245 [INFO] 127.0.0.1 - - [26/Nov/2025 14:20:23] "GET /view_forward_logs?__debugger__=yes&cmd=resource&f=console.png&s=BSMUZw3BcZl5d6aK7i3M HTTP/1.1" 200 -
+2025-11-26 14:20:23,277 [INFO] 127.0.0.1 - - [26/Nov/2025 14:20:23] "GET /view_forward_logs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-11-26 14:21:26,364 [INFO] 127.0.0.1 - - [26/Nov/2025 14:21:26] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-11-26 14:21:26,374 [INFO] 127.0.0.1 - - [26/Nov/2025 14:21:26] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-26 14:21:26,374 [INFO] 127.0.0.1 - - [26/Nov/2025 14:21:26] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-26 14:21:26,387 [INFO] 127.0.0.1 - - [26/Nov/2025 14:21:26] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=BSMUZw3BcZl5d6aK7i3M HTTP/1.1" 200 -

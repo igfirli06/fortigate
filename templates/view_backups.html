@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Database Backups</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background: #f4f6f8;
+            padding: 20px;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 15px;
+        }
+        h1 {
+            margin: 0;
+            color: #2c3e50;
+        }
+        .btn {
+            padding: 8px 15px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            font-size: 14px;
+            color: white;
+        }
+        .btn-backup {
+            background: #9b59b6;
+        }
+        .btn-home {
+            background: #7f8c8d;
+            margin-left: 10px;
+        }
+        .alert {
+            background: #d4edda;
+            color: #155724;
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+            text-align: center;
+            border: 1px solid #c3e6cb;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+        th {
+            background: #f8f9fa;
+            padding: 12px;
+            text-align: left;
+            border-bottom: 2px solid #ddd;
+            color: #555;
+        }
+        td {
+            padding: 10px 12px;
+            border-bottom: 1px solid #eee;
+        }
+        tr:hover {
+            background: #f9f9f9;
+        }
+        .dl-link {
+            color: #2980b9;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 5px 10px;
+            border: 1px solid #eee;
+            border-radius: 4px;
+            transition: 0.2s;
+        }
+        .dl-link:hover {
+            background: #eaf6ff;
+            border-color: #2980b9;
+        }
+        .empty-row {
+            text-align: center;
+            color: #999;
+            padding: 20px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>Database Backups</h1>
+        <div>
+            <a href="{{ url_for('trigger_backup') }}" class="btn btn-backup">Backup Sekarang</a>
+            <a href="/" class="btn btn-home">Dashboard</a>
+        </div>
+    </div>
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            {% for category, message in messages %}
+                <div class="alert">{{ message }}</div>
+            {% endfor %}
+        {% endif %}
+    {% endwith %}
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nama File</th>
+                <th>Ukuran</th>
+                <th style="text-align: right;">Aksi</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for file in files %}
+            <tr>
+                <td>{{ file.name }}</td>
+                <td style="color: #666;">{{ file.size }}</td>
+                <td style="text-align: right;">
+                    <a href="{{ url_for('download_backup', filename=file.name) }}" class="dl-link">Download</a>
+                </td>
+            </tr>
+            {% else %}
+            <tr>
+                <td colspan="3" class="empty-row">Belum ada file backup di folder ini.</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>

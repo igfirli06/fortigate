@@ -1,0 +1,48 @@
+2025-11-26 14:23:50,708 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://100.100.167.163:5000
+2025-11-26 14:23:50,709 [INFO] [33mPress CTRL+C to quit[0m
+2025-11-26 14:23:52,675 [INFO] 127.0.0.1 - - [26/Nov/2025 14:23:52] "GET / HTTP/1.1" 200 -
+2025-11-26 14:23:54,205 [INFO] 127.0.0.1 - - [26/Nov/2025 14:23:54] "GET /view_logs HTTP/1.1" 200 -
+2025-11-26 14:24:10,753 [INFO] 127.0.0.1 - - [26/Nov/2025 14:24:10] "POST / HTTP/1.1" 200 -
+2025-11-26 14:24:13,819 [INFO] 127.0.0.1 - - [26/Nov/2025 14:24:13] "GET /view_logs HTTP/1.1" 200 -
+2025-11-26 14:24:16,859 [INFO] 127.0.0.1 - - [26/Nov/2025 14:24:16] "GET /view_forward_logs HTTP/1.1" 200 -
+2025-11-26 14:25:02,405 [INFO] 127.0.0.1 - - [26/Nov/2025 14:25:02] "GET /view_forward_logs HTTP/1.1" 200 -
+2025-11-26 14:25:09,836 [INFO] 127.0.0.1 - - [26/Nov/2025 14:25:09] "GET /view_backups HTTP/1.1" 200 -
+2025-11-27 12:58:16,715 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://100.100.167.163:5000
+2025-11-27 12:58:16,716 [INFO] [33mPress CTRL+C to quit[0m
+2025-11-27 12:58:26,460 [INFO] 127.0.0.1 - - [27/Nov/2025 12:58:26] "GET / HTTP/1.1" 200 -
+2025-11-27 12:58:30,680 [INFO] 127.0.0.1 - - [27/Nov/2025 12:58:30] "GET /view_backups HTTP/1.1" 200 -
+2025-11-27 12:58:34,669 [INFO] 127.0.0.1 - - [27/Nov/2025 12:58:34] "GET /view_forward_logs HTTP/1.1" 200 -
+2025-11-27 12:58:37,714 [INFO] 127.0.0.1 - - [27/Nov/2025 12:58:37] "GET /view_logs HTTP/1.1" 200 -
+2025-11-27 12:58:59,326 [INFO] 127.0.0.1 - - [27/Nov/2025 12:58:59] "POST / HTTP/1.1" 200 -
+2025-11-27 12:59:02,528 [INFO] 127.0.0.1 - - [27/Nov/2025 12:59:02] "GET /view_logs HTTP/1.1" 200 -
+2025-11-27 12:59:09,363 [INFO] 127.0.0.1 - - [27/Nov/2025 12:59:09] "POST / HTTP/1.1" 200 -
+2025-11-27 12:59:23,643 [INFO] 127.0.0.1 - - [27/Nov/2025 12:59:23] "POST / HTTP/1.1" 200 -
+2025-11-27 12:59:26,618 [INFO] 127.0.0.1 - - [27/Nov/2025 12:59:26] "GET /view_forward_logs HTTP/1.1" 200 -
+2025-11-27 12:59:34,313 [INFO] 127.0.0.1 - - [27/Nov/2025 12:59:34] "GET / HTTP/1.1" 200 -
+2025-12-17 08:22:23,484 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://100.100.167.163:5000
+2025-12-17 08:22:23,615 [INFO] [33mPress CTRL+C to quit[0m
+2025-12-17 08:22:27,678 [INFO] 127.0.0.1 - - [17/Dec/2025 08:22:27] "GET / HTTP/1.1" 200 -
+2025-12-17 08:22:28,146 [INFO] 127.0.0.1 - - [17/Dec/2025 08:22:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-17 08:22:30,671 [INFO] 127.0.0.1 - - [17/Dec/2025 08:22:30] "GET /view_logs HTTP/1.1" 200 -
+2025-12-17 08:22:36,299 [INFO] 127.0.0.1 - - [17/Dec/2025 08:22:36] "GET /view_forward_logs HTTP/1.1" 200 -
+2025-12-17 08:22:38,221 [INFO] 127.0.0.1 - - [17/Dec/2025 08:22:38] "GET /view_backups HTTP/1.1" 200 -
+2025-12-17 08:23:16,587 [INFO] 127.0.0.1 - - [17/Dec/2025 08:23:16] "POST / HTTP/1.1" 200 -
+2025-12-17 08:23:19,008 [INFO] 127.0.0.1 - - [17/Dec/2025 08:23:19] "GET /view_logs HTTP/1.1" 200 -
+2025-12-17 08:23:22,209 [INFO] 127.0.0.1 - - [17/Dec/2025 08:23:22] "GET / HTTP/1.1" 200 -
+2026-01-03 07:28:00,840 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.8:5000
+2026-01-03 07:28:00,841 [INFO] [33mPress CTRL+C to quit[0m
+2026-01-03 07:28:03,819 [INFO] 127.0.0.1 - - [03/Jan/2026 07:28:03] "GET / HTTP/1.1" 200 -
+2026-01-03 07:28:04,096 [INFO] 127.0.0.1 - - [03/Jan/2026 07:28:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-01-03 07:28:05,692 [INFO] 127.0.0.1 - - [03/Jan/2026 07:28:05] "GET /view_logs HTTP/1.1" 200 -
